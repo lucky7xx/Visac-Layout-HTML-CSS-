@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;600;700;800&display=swap');
+
+
+body html {
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+header {
+    background-color: rgba(34, 40, 74, 1);
+    display: flex;
+    margin: auto;
+}
+
+.sub-header {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+
+}
+
+.contact {
+    margin-top: 15px;
+    width: 80%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.lang {
+    width: 10%;
+    background-color: rgba(255, 67, 3, 1);
+    height: 50px;
+
+}
+
+.lang p {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+
+
+
+menu {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+
+}
+
+.logo {
+    width: 30%;
+    padding-left: 15px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgba(255, 67, 3, 1);
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 67, 3, 1);
+}
+
+.sub-container {
+    background-image: url('https://images.pexels.com/photos/6284861/pexels-photo-6284861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.main-con {
+    width: 1200px;
+    margin: auto;
+
+
+
+}
+
+.textonimage {
+    width: 25%;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    color: rgb(0, 0, 0);
+}
+
+.textonimage span {
+    font-size: 20px;
+}
+
+.h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.h1::after {
+    content: '';
+    bottom: -40px;
+    height: 4px;
+    width: 35%;
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+    background: rgba(255, 67, 3, 1);
+}
+
+.textonimage a button {
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 67, 3, 1);
+    font-size: 20px;
+    border: 1px solid rgba(255, 67, 3, 1);
+    color: aliceblue;
+    margin-top: 60px;
+}
+
+.textonimage a button:hover {
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 27%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -100px;
+    position: relative;
+    border: 1px solid rgb(114, 114, 114);
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+#icon{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 100px;
+   color:rgba(255, 67, 3, 1); 
+}
+
+.card  h2{
+
+    text-align: center;
+}
+
+.card1 h2{
+
+    text-align: center;
+}
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card1 p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card p a{
+    text-decoration: none;
+    color:rgba(255, 67, 3, 1); 
+  
+}
+
+.card1 p a{
+    text-decoration: none;
+    color:rgba(255, 67, 3, 1); 
+  
+}
+
+.desc {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.ls-content {
+    width: 35%;
+    margin-left: 80px;
+}
+
+.ls-content img {
+    width: 100%;
+}
+
+.rs-content {
+    width: 45%;
+    margin-left: 80px;
+}
+
+.rs-content h2 {
+    font-size: 40px;
+}
+
+.rs-content p{
+    padding-bottom: 5px;
+}
+
+.rs-content a button {
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 67, 3, 1);
+    font-size: 20px;
+    border: 1px solid rgba(255, 67, 3, 1);
+    color: aliceblue;
+
+}
+
+.rs-content a button:hover {
+ cursor: pointer;
+
+}
+
+.banner {
+    width: 100%;
+    background-color: rgba(34, 40, 74, 1);
+    display: flex;
+}
+
+.services {
+    width: 40%;
+    padding-top: 50px;
+}
+
+#services {
+    width: 100%;
+    background-color: rgba(34, 40, 74, 1);
+}
+
+#title {
+    font-size: 20px;
+    color: rgba(255, 67, 3, 1);
+    ;
+}
+
+#subtitle {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.man {
+    width: 40%;
+}
+
+.man img {
+    width: 100%;
+}
+
+.services1 {
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cards1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    width: 27%;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-top: 40px;
+   
+    position: relative;
+    border: 4px dotted rgb(114, 114, 114);
+    background-color: rgb(255, 255, 255);
+}
+
+#six-cards{
+    padding-bottom: 50px;
+}
+
+
+#recent-works {
+    background-color: rgba(240, 243, 248, 1);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#flex {
+    display: flex;
+}
+
+.persons {
+    display: flex;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+.person {
+    width: 24%;
+    margin-right: 20px;
+}
+
+.person img {
+    width: 100%;
+}
+
+#team{
+    margin-top: 60px;
+}
+
+.teams{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.team{
+    width: 30%;
+    border: 1px solid rgb(108, 108, 108);
+    text-align: center;
+    box-shadow: 1px 1px 1px 0.3px rgb(119, 117, 117);
+}
+
+.team hr{
+    width: 40%;
+    margin: auto;
+} 
+
+.team p{
+    padding-top: 10px; 
+    padding-bottom: 10px;
+
+}
+
+.social-icons{
+    padding-top: 10px;
+}
+
+.social-icons a{
+    color: rgb(115, 117, 118);
+    font-size:25px;
+    padding-right: 10px;
+}
+
+
+.social-icons a:hover{
+    color: rgba(255, 67, 3, 1);;
+}
+
+.team img{
+    width: 100%;
+}
